@@ -1,0 +1,11 @@
+
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ÌÒ–ä8‡Ã€±‰/
+]
+java:S21847"@Cast one of the operands of this integer division to a "double".(ÑÊ–Î8µ©é°‰/
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(½‰Ú°ıÿÿÿÿ8©Šñ°‰/
+E
+java:S1125I"(Remove the literal "true" boolean value.(…çë8˜Ñ—²‰/
+T	java:S106!"9Replace this use of System.out or System.err by a logger.(¢è<8Úı²‰/
+Z	java:S106%"9Replace this use of System.out or System.err by a logger.(ƒš‡‹ùÿÿÿÿ8¼¦’³‰/
+U	java:S106("9Replace this use of System.out or System.err by a logger.(­ì¬©8¿ªŸ³‰/
+Z	java:S106"9Replace this use of System.out or System.err by a logger.( ­‡àúÿÿÿÿ8èÕñ°‰/

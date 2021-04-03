@@ -163,3 +163,43 @@ var newArray9 = array9.reduce((accumulator, value) => {
     }, []);
 console.log(newArray9);
 console.log("*****************************************************************************");
+
+console.log("10. Optional: The accumulator function can obviously use objects outside of itself. Use reduce to implement groupBy");
+/*For example:
+people = [
+  {name: 'Rikke', age: 46},
+  {name: 'Michael', age: 47},
+  {name: 'Mathias', age: 46}
+];
+should be turned into groupedPeople = groupBy(people, 'age') ;
+groupPeople:
+{
+  46: [
+    {name: 'Rikke', age: 46} ,
+    {name: 'Mathias', age : 46}
+  ],
+  47: [
+    {name: 'Michael', age: 47}
+  ]
+}
+*/
+console.log("---------------------------------------------------------------------------");
+function groupBy(array, attribut)
+{
+  return array.reduce((result, value) => {
+    const key = value[attribut];
+    if (!result[key]) {
+      result[key] = [];
+    }
+    result[key].push(value);
+    return result;
+  }, {});
+}
+var array10 = [
+  {name: 'Rikke', age: 46},
+  {name: 'Michael', age: 47},
+  {name: 'Mathias', age: 46}
+];
+var newArray10 = groupBy(array10, 'age');
+console.log(newArray10);
+console.log("*****************************************************************************");

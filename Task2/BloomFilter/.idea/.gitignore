@@ -1,0 +1,8 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# Datasource local storage ignored files
+/../../../../../../../../../../../../../../:\Users\morte\Documents\Dokumentation\2_Semester_Software-Udvikling\2_Databases_for_Developers\Assignments\Assignment2_Column-based\Git\Assignment2_ColumnBased\Task2\BloomFilter\.idea/dataSources/
+/dataSources.local.xml
+# Editor-based HTTP Client requests
+/httpRequests/
