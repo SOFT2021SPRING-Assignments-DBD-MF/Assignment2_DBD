@@ -27,12 +27,7 @@ Der er falske positive, hvilket betyder, at du ikke altid kan være garanteret a
 Se kode til denne task i mappen **[Task2](https://github.com/SOFT2021SPRING-Assignments-DBD-MF/Assignment2_DBD/tree/main/Task2)**.
 
 ##### 5. If you are to store one million ASCII strings with an average size of 10 characters in a hash set, what would be the approximate space consumption?
-FORMEL: -(n * math.log(p))/(math.log(2)^2)  
-n = antal elementer  
-p = falsk positiv procent i decimal  
-[Source link](https://www.geeksforgeeks.org/bloom-filters-introduction-and-python-implementation/)
-
-Uendeligt, fordi der ikke er noget stop bit. Prøvede at ændre min program til 0% i falsk positiver og fik ”OutOfMemory”-exception.
+15.000.000 bits
 
 ##### 6. The following equation gives the required number of bits of space per inserted key, where E is the false positive rate
 b = 1.44log2(1/E)
@@ -61,7 +56,7 @@ Compressed string = 146 bits
 ASCII string = 360 bits (45 tegn * 8 bit pr. tegn)
 
 ##### 3. Compress “pete is here” with the Huffmann tree from before
-Se billede og filer i mappen **[Task3](https://github.com/SOFT2021SPRING-Assignments-DBD-MF/Assignment2_DBD/tree/main/Task3)**.
+10110111110001110111101000110111110100101
 
 ##### 4. Write your own 10 word sentence. Generate the Huffmann Code (a new Huffmann Tree), and write a new compressed message (ie. in binary)
 Se bits filer i mappen **[Task3](https://github.com/SOFT2021SPRING-Assignments-DBD-MF/Assignment2_DBD/tree/main/Task3)**.
